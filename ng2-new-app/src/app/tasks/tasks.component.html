@@ -1,0 +1,8 @@
+<h4>This is the Tasks Component</h4>>
+<div *ngIf="pokemonData">
+  <ul>
+    <li *ngFor="let pokemon of pokemonData.pokemons">
+      <span>{{pokemon.name}}</span>
+    </li>
+  </ul>
+</div>

@@ -1,4 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
+export class TaskComponent implements OnInit{
+  constructor(){}
+  ngOnInit(){}
+}
 
 @Component({
   selector: 'app-root',
@@ -6,5 +11,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.less'],
 })
 export class AppComponent {
-  title = 'ng2-new-app';
+  title = 'the world of Angular 6';
 }
