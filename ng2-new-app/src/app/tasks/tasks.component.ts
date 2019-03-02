@@ -11,6 +11,8 @@ export class TasksComponent implements OnInit {
 
   constructor(private svc: PokemonService) {}
 
+  toggle: boolean = true;
+
   ngOnInit() {
     this.svc.getPokemons().subscribe(data => {
       this.pokemonData = data;

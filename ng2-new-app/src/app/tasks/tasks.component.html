@@ -1,4 +1,9 @@
-<h4>This is the Tasks Component</h4>>
+<h3 [class.red]="true">SwamiShriji</h3>
+<h3 [class.red]="toggle">Pramukham</h3>
+<h4>This is the Tasks Component</h4>
+<h5 [ngClass]="{'red': toggle}">Alternative tasks</h5>
+<h5 [ngClass]="{'blue': toggle}">Alternative tasks</h5>
+<h5 [ngClass]="{'red': toggle,'blue': !toggle}">Alternative tasks</h5>
 <div *ngIf="pokemonData">
   <ul>
     <li *ngFor="let pokemon of pokemonData.pokemons">
