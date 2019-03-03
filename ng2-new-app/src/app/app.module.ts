@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TasksComponent } from './tasks/tasks.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ConditionstestComponent } from './conditionstest/conditionstest.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TasksComponent
+    TasksComponent,
+    ConditionstestComponent
   ],
   imports: [
     BrowserModule,
