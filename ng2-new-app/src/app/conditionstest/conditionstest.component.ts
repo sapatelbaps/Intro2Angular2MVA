@@ -11,7 +11,7 @@ export class ConditionstestComponent implements OnInit {
   imTrue = true;
 
   // It will generate no. of tags related to array item. TAGS not inner html - just iterator!
-  tasks = ['First Task','Second Task']
+  tasks = ['First Task', 'Second Task'];
 
   constructor() {
 

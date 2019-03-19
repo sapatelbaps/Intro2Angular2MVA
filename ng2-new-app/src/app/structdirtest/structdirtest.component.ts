@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class StructdirtestComponent implements OnInit {
 
   isVisible = false;
-  gurus = ['Gunatit','Bhagatji', 'Shashtriji', 'Yogiiji', 'Pramukham', 'Mahanatam'];
+  gurus = ['Gunatit', 'Bhagatji', 'Shashtriji', 'Yogiiji', 'Pramukham', 'Mahanatam'];
 
   constructor() { }
 
