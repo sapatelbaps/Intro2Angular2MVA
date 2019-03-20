@@ -1,7 +1,9 @@
 <h4>This is task component</h4>
 
 <ul>
-  Name : IsCompleted
+  <b>Name : IsCompleted</b>
+  <br/>
+  <br/>
   <li *ngFor="let task of taskService.tasks">
     {{ task.title }} : {{ task.completed}}
   </li>
