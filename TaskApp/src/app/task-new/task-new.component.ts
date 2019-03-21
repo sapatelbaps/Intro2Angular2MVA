@@ -15,6 +15,7 @@ export class TaskNewComponent implements OnInit {
 
   onSubmit(){
     this.taskService.tasks.push(this.task);
+    this.task = { title: '', completed: false };
   }
 
   ngOnInit() {}
