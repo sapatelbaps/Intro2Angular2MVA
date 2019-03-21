@@ -14,5 +14,7 @@ export class TaskListComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  completeTask(task){
+    task.completed = true;
+  }
 }
