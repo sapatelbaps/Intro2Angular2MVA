@@ -14,7 +14,11 @@ export class TaskNewComponent implements OnInit {
   }
 
   onSubmit(){
-    this.taskService.tasks.push(this.task);
+    // either
+    // this.taskService.tasks.push(this.task);
+    // or
+    this.taskService.addTask(this.task);
+
     this.task = { title: '', completed: false };
   }
 

@@ -14,4 +14,9 @@ export class TaskService {
       {title: 'Fourth Task' , completed: false}
     ];
    }
+
+   addTask(task){
+     this.tasks.push(task);
+   }
+
 }
