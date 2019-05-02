@@ -25,9 +25,11 @@
               "src/tasks.json"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
             ],
-            "scripts": [],
+            "scripts": [
+              ""
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {

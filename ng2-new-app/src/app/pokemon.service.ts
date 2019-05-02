@@ -6,7 +6,7 @@ import { Observable} from 'rxjs';
   providedIn: 'root'
 })
 export class PokemonService {
-  private url = "https://super-crud.herokuapp.com/pokemon";
+  private url = 'https://jsonplaceholder.typicode.com/users';
 
   constructor(private http: HttpClient) { }
 

@@ -1,5 +1,6 @@
 <h4>Create a Task</h4>
 <form (submit)='onSubmit()'>
+  <!-- Two way binding of component property-->
   <input [(ngModel)]="task.title" name='title'>
   <input type="submit">
 </form>

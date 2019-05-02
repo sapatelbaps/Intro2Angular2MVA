@@ -1,12 +1,18 @@
-<h3 [class.red]="true">SwamiShriji</h3>
-<h3 [class.red]="toggle">Pramukham</h3>
 <h4>This is the Tasks Component</h4>
-<h5 [ngClass]="{'red': toggle}">Alternative tasks</h5>
-<h5 [ngClass]="{'blue': toggle}">Alternative tasks</h5>
-<h5 [ngClass]="{'red': toggle,'blue': !toggle}">Alternative tasks</h5>
+<ul>
+  <li>CSS class usage from component.less file</li>
+  <li>Access variable from component</li>
+  <li>Apply classes alternatively</li>
+</ul>
+<span [class.red]="true">SwamiShriji</span><br/>
+<span [class.red]="toggle">Pramukham</span><br/>
+<span [ngClass]="{'red': toggle}">Alternative tasks - red colour</span><br/>
+<span [ngClass]="{'blue': toggle}">Alternative tasks - blue colour</span><br/>
+<span [ngClass]="{'red': toggle,'blue': !toggle}">Alternative tasks - flag colour/whichever is true</span><br/>
+<h4>Calling online JSON service to get and display data!</h4>
 <div *ngIf="pokemonData">
   <ul>
-    <li *ngFor="let pokemon of pokemonData.pokemons">
+    <li *ngFor="let pokemon of pokemonData">
       <span>{{pokemon.name}}</span>
     </li>
   </ul>

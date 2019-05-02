@@ -1,10 +1,9 @@
 <h4>This is task component</h4>
-
-<ul>
-  <b>Name : IsCompleted</b>
-  <br/>
-  <br/>
-  <li *ngFor="let task of taskService.tasks">
+<b>Name : IsCompleted</b>
+<br />
+<br />
+<ul class="list-group">
+  <li *ngFor="let task of taskService.tasks" class="list-group-item" [ngClass]="checkCounter()">
     {{ task.title }} : {{ task.completed}}
   </li>
 </ul>

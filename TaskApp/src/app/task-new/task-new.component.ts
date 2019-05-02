@@ -19,6 +19,7 @@ export class TaskNewComponent implements OnInit {
     // or
     this.taskService.addTask(this.task);
 
+    // reset component variables to make them empty on the page as well!
     this.task = { title: '', completed: false };
   }
 

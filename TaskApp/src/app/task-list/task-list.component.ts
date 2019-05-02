@@ -9,12 +9,12 @@ import { Component, OnInit } from '@angular/core';
 export class TaskListComponent implements OnInit {
 
   constructor(public taskService: TaskService) {
-
-   }
+  }
 
   ngOnInit() {
   }
-  completeTask(task){
+
+  completeTask(task) {
     task.completed = true;
   }
 }

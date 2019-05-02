@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PokemonService } from "../pokemon.service";
+import { PokemonService } from '../pokemon.service';
 
 @Component({
   selector: 'app-tasks',
@@ -7,7 +7,7 @@ import { PokemonService } from "../pokemon.service";
   styleUrls: ['./tasks.component.less']
 })
 export class TasksComponent implements OnInit {
-  private pokemonData: any;
+  public pokemonData: any;
 
   constructor(private svc: PokemonService) {}
 

@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-export class TaskComponent implements OnInit{
-  constructor(){}
-  ngOnInit(){}
+export class TaskComponent implements OnInit {
+  constructor() {}
+  ngOnInit() {}
 }
 
 @Component({
