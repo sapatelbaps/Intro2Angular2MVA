@@ -17,6 +17,6 @@
             "request": "attach",
             "url": "http://localhost:4600/#",
             "webRoot": "${workspaceFolder}"
-          },
+        },
     ]
 }
